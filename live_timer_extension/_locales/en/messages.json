@@ -1,0 +1,14 @@
+{
+    "appName": {
+        "message": "Timer Extension"
+    },
+    "setTimeLimit": {
+        "message": "Set Time Limit (seconds):"
+    },
+    "selectTheme": {
+        "message": "Select Theme:"
+    },
+    "saveButton": {
+        "message": "Save"
+    }
+}

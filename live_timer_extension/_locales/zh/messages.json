@@ -1,0 +1,14 @@
+{
+    "appName": {
+        "message": "计时器扩展"
+    },
+    "setTimeLimit": {
+        "message": "设置时间限制（秒）："
+    },
+    "selectTheme": {
+        "message": "选择主题："
+    },
+    "saveButton": {
+        "message": "保存"
+    }
+}

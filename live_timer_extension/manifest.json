@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "Live Timer Extension",
+  "description": "此扩展将在直播平台上显示浏览时间。",
+  "version": "2.1",
+  "default_locale": "en",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.huya.com/*",
+        "*://*.bilibili.com/*",
+        "*://*.douyu.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+  
